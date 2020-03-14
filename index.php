@@ -60,7 +60,7 @@ if ($_SESSION["verified"]) {
         <p> 
             <?php 
                 echo $icon;
-                echo $temperature, " °C";
+                echo round($temperature, 2), " °C";
             ?> 
         </p>
     </h1>
